@@ -1,0 +1,120 @@
+/*********************************
+question
+*********************************/
+
+.cp_qa *, .cp_qa *:after, .cp_qa *:before {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.cp_qa {
+    max-width: 800px;
+    margin: 50px auto 0;
+    text-align: left;
+}
+.cp_qa .cp_actab {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 0 1em 0;
+}
+.cp_qa .cp_actab input {
+    position: absolute;
+    opacity: 0;
+}
+/* 質問 */
+.cp_qa .cp_actab label {
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 1em 2em 1em 2.5em;
+    cursor: pointer;
+    text-indent: 1em;
+    font-weight: normal;
+    font-size: 18px;
+}
+.cp_qa .cp_actab label::before {
+    font-size: 1.5em;
+    margin-left: -2em;
+    padding-right: 1em;
+    content: 'Q';
+    font-family: 'Lucida', serif;
+}
+.cp_qa .cp_actab label:hover {
+    transition: all 0.3s;
+    color: #32e6c5;
+}
+/* --質問の＋アイコン */
+.cp_qa .cp_actab label::after {
+    font-size: 1.7em;
+    line-height: 2em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '+';
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    -webkit-transition: transform 0.4s;
+            transition: transform 0.4s;
+}
+/* 答え */
+.cp_qa .cp_actab .cp_actab-content {
+    position: relative;
+    overflow: hidden;
+    max-height: 0;
+    padding: 0 0 0 3.5em;
+    -webkit-transition: max-height 0.2s;
+            transition: max-height 0.2s;
+    border-radius: 0 0 0.5em 0.5em;
+}
+.cp_qa .cp_actab .cp_actab-content::before {
+    font-size: 1.5em;
+    position: absolute;
+    margin: 0.6em 0 0px -1em;
+    padding: 0;
+    content: 'A';
+    font-family: 'Lucida', serif;
+}
+.cp_qa .cp_actab .cp_actab-content p {
+    margin: 1em 1em 1em 0;
+}
+/* 質問を開いた時の仕様 */
+/* --答えの高さ */
+.cp_qa .cp_actab input:checked ~ .cp_actab-content {
+    max-height: 40em;
+}
+/* 質問をクリックした時のアイコンの動き */
+.cp_qa .cp_actab input:checked ~ label {
+    color: #32e6c5;
+}
+/* 質問をクリックした時の+の動き */
+.cp_qa .cp_actab input[type=checkbox]:checked + label::after {
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+@media only screen and (max-width: 767px) {
+    .cp_qa .cp_actab label {
+        padding: 1em 4em 1em 2.5em;
+    }
+
+.gallery_button {
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+}
+    .cp_qa {
+        margin: 0 auto 0;
+    }
+
+    .cp_qa .cp_actab label {
+    font-size: 16px;
+}
+
+.faqTitle h2 {
+    font-size: 24px;
+}
+}

@@ -1,0 +1,485 @@
+.contain h2{
+  border-left: 10px solid rgb(88, 228, 207);
+  background: #c9f9f6;
+  display: inline-block;
+  margin-top: 100px;
+  padding: 15px;
+  font-size: 28px;
+}
+
+
+.pd {
+
+  background: #fff;
+  margin-bottom: 100px;
+}
+
+.pd .contain {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.pd .contain p {
+  letter-spacing: 0.05em;
+  font-size: 18px;
+  line-height: 1.75em;
+}
+
+.pd ul > li {
+  padding: 10px;
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 1.75em;
+  display: inline-block;
+}
+
+.reviews .trial_txt a::after {
+    content: '';
+    display: inline-block;
+    background-image: url(../img/dummy/pdf01.png);
+    width: 50px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+}
+
+
+p{
+    text-indent: 1em
+}
+.home_background.beginner {
+    background-position: inherit;
+    background-size: auto;
+}
+.gallery_text.text-center a {
+    font-weight: 600;
+    color: #f70cc4eb;
+}
+@media only screen and (max-width: 767px) {
+    .pd .contain {
+  width: 100%;
+}
+    .home_background.beginner {
+        background-position: center;
+    }
+}
+/*********************************
+beginner
+*********************************/
+.beginners_title{
+    color:#efe4e4;
+}
+
+
+.beginner_txt, .reviews a {
+    text-indent:1em;
+    color: #777777;
+    line-height: 2.14;
+    text-align: left;
+    padding-top: 0px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+
+/*********************************
+reviews
+*********************************/
+.trial_wrap {
+    display: flex;
+}
+.trial_wrap p {
+       margin-top:0px;
+       display: inline-block;
+       width: 80%;
+}
+.trial_wrap img {
+    margin-top: -80px;
+    width: 100%;
+}
+.trial_txt {
+    width: 80%;
+    margin-top: -10px;
+}
+
+.trial_img {
+    width: 300px;
+}
+
+span.time_ml {
+    margin-left: 7em;
+}
+.reviews {
+    padding-top: 60px;
+    margin-bottom: 200px;
+}
+
+.reviews .container {
+    width: 1000px;
+}
+.reviews ul {
+	margin-top: 40px;
+}
+.reviews_title {
+	font-family: 'Lucida', serif;
+    font-size: 30px;
+    color: #232323;
+    text-transform: uppercase;
+    line-height: 0.75;
+}
+.review {
+    margin-bottom: 30px;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.review_image {
+    width: 92px;
+    height: 92px;
+    background-color: #a6efef;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+}
+.review_icn {
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.review_content {
+    padding-left: 150px;
+}
+.review_name {
+    font-size: 27px;
+    font-family: 'Lucida', serif;
+}
+.review_date {
+    font-size: 24px;
+    color: #937c6f;
+    margin-top: 3px;
+}
+.rating.review_rating {
+    margin-top:10px;
+}
+.rating.review_rating i {
+    font-size: 20px;
+    margin-right: 3px;
+    color: #e0e3e4;
+}
+.rating_4 i:first-child {
+    color: #f5c06f;
+}
+.rating_4 i:nth-child(2) {
+    color: #f5c06f;
+}
+.rating_4 i:nth-child(3) {
+    color: #f5c06f;
+}
+.rating_4 i:nth-child(4) {
+    color: #f5c06f;
+}
+.rating i:last-child {
+    margin-right: 0px;
+}
+.review_text {
+    margin-top: 50px;
+}
+.review_text .tel {
+	pointer-events: none;
+}
+.review_text p:last-of-type {
+    margin-bottom: 0;
+}
+.review_text p {
+    font-size: 20px;
+    color: #777777;
+    line-height: 1.5em;
+}
+
+.reviews_container ul li {
+    padding-top: 0px;
+}
+.reviews_container ul li:last-child {
+    margin-bottom: 0;
+}
+
+
+/* フロー2 */
+
+.flow02 {
+    margin: 50px auto 50px;
+    width: 80%;
+}
+
+/* floatを使うのでclearfixの指定 */
+
+.flow02:after {
+    height: 0;
+    visibility: hidden;
+    content: ".";
+    display: block;
+    clear: both;
+}
+
+.pd .flow02 small {
+    color: #4e4831;
+    font-weight: normal;
+}
+
+.pd .flow02 b {
+    color: cornsilk;
+    margin-left: 70px;
+}
+ 
+.review_image.step1 {
+    background: #a28be2;
+}
+.review_image.step2 {
+    background: #789DFE;
+}
+.review_image.step3 {
+    background: #78E4FE;
+}
+.review_image.step4 {
+    background: #78FED1;
+}
+
+.flow02 .box {
+    padding-top: 16px; /* テキストの位置調整 */
+    width: 24%; /* ウィンドウの幅が広くなった時のために％で指定 */
+    height: 100px;
+    background: #a28be2; /* １番目のボックスの色指定 */
+    float: left; /* 横並び */
+    position: relative;
+    font-size: 1.6em; /* テキストの指定 */
+    font-weight: bold; /* テキストの指定 */
+    line-height: 1.4; /* テキストの指定 */
+}
+
+.flow02 .box02 { background: #789DFE; } /* ２番目のボックスの色指定*/
+.flow02 .box03 { background: #78E4FE; } /* ３番目のボックスの色指定*/
+.flow02 .box04 { background: #78FED1; } /* ４番目のボックスの色指定*/
+
+/* ボックスの左側に三角形を作る */
+
+.flow02 .box:before {
+    border-left: 20px solid #FFFFFF; /* １番目の三角形は背景色と同じ色を指定 */
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    content: "";
+    position: absolute;
+    left: 0; /* ボックスの左に合わせて三角形を作る */
+    top: 0;
+}
+
+.flow02 .box02:before { border-left-color: #a28be2; } /* ２番目の三角形は１番目のボックスと同じ色を指定 */
+.flow02 .box03:before { border-left-color: #789DFE; } /* ３番目の三角形は２番目のボックスと同じ色を指定 */
+.flow02 .box04:before { border-left-color: #78E4FE; } /* ４番目の三角形は３番目のボックスと同じ色を指定 */
+
+/* 最後のボックスにだけ、右側に付ける三角形を作成する */
+.flow02 .box04:after {
+    border-left: 20px solid #78FED1; /* 最後の三角形は最後のボックスと同じ色を指定 */
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    content: "";
+    position: absolute;
+    right: -20px; /* 三角形の幅の分だけ右にずらす */
+    top: 0;
+}
+
+.flow02 .box span {
+    padding-left: 60px; /* テキストの位置調整 */
+}
+
+
+.arrow {
+    margin: 0 auto 100px;
+    padding-top: 15px; /* 要素の上の余白調整 */
+    position: relative;
+}
+
+ 
+
+.arrow:before {
+    width: 100px; /* 四角形の幅 */
+    height: 80px; /* 四角形の高さ */
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFFFFF), to(#FFC300));
+    background-image: -webkit-linear-gradient(#FFFFFF, #FFC300);
+    background-image: linear-gradient(#FFFFFF, #9ef6ff);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%; /* 中央寄せに使用 */
+    margin-left: -50px; /* 中央寄せに使用 */
+}
+
+ 
+
+.arrow:after {
+    border-top: 35px solid #9ef6ff; /* 角度を緩やかなものに指定 */
+    border-left: 70px solid transparent; /* 左のボーダーを透過に指定 */
+    border-right: 70px solid transparent; /*右のボーダーを透過に指定*/
+    content: "";
+    position: absolute;
+    top: 80px; /* 四角形の高さと同じ物を指定 */
+    left: 50%; /* 中央寄せに使用 */
+    margin-left: -70px; /* 中央寄せに使用 */
+
+}
+
+ 
+
+/* テキストの指定 */
+
+.arrow span {
+    position: relative;
+    z-index: 3;
+    left: 48%;
+    top: 20px;
+    font-size: 1.6em;
+    font-weight: bold;
+    line-height: 1.4;
+    text-shadow: 2px 2px 1px rgb(255,255,255);
+}
+/* 今回はbefore要素で四角 */
+@media only screen and (max-width: 767px) {
+	.review_text .tel {
+		pointer-events: auto;
+	}
+    .review_image {
+        width: 50px;
+        height: 50px;
+    }
+    .review_icn img {
+        width: 90%;
+    }
+    .review_content {
+        padding-left: 10px;
+    }
+    .review_name {
+        padding-left: 60px;
+    }
+
+    .reviews .container {
+    width: 100%;
+}
+
+.arrow {
+    margin: 80px auto 150px;
+}
+    
+}
+
+
+
+
+/*********************************
+guidance
+*********************************/
+.guidance {
+	padding: 100px 0 50px;
+}
+.guidance iframe {
+	margin-top: 30px;
+}
+@media only screen and (max-width: 767px) {
+	.guidance iframe {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+    .cp_qa .cp_actab label {
+        padding: 1em 4em 1em 2.5em;
+    }
+}
+.gallery_button {
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+  .pd .contain {
+    width: 100%;
+    padding: 3px;
+  }
+
+  .flow02 .box span {
+    padding-left: 0px;
+}
+
+.pd .contain {
+  width: 100%;
+}
+
+.trial_wrap img {
+    margin-top: 0px;
+    width: 90%;
+}
+
+.trial_wrap p {
+    width: 98%;
+}
+
+.review_content {
+    padding-left: 70px;
+}
+
+.arrow span {
+    left: 43%;
+}
+
+.reviews {
+    padding-top: 0;
+}
+
+.reviews ul {
+    padding: 15px;
+}
+
+.trial_img {
+    width: 200px;
+}
+
+.review_text p {
+    font-size: 18px;
+}
+
+.review_name {
+    padding-left: 0px;
+}
+
+.flow02 {
+    margin: 30px auto 0px;
+    width: 97%;
+}
+
+.pd .flow02 small {
+    font-size: 12px;
+}
+
+.pd {
+    margin-bottom: 20px;
+}
+
+.pd .flow02 b {
+    font-size: 11px;
+    color: #3e3d39;
+    margin-left: 0;
+}
+}
+
+

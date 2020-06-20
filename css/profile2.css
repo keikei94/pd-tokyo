@@ -1,0 +1,114 @@
+body {
+ background: #ccc;   
+}
+
+.pd.prf {
+  margin-bottom: 500px;
+}
+
+.flip {
+  -webkit-perspective: 800;
+   width: 800px;
+   height: 300px;
+    position: relative;
+    margin: 5% auto;
+}
+.flip .card.flipped {
+  -webkit-transform: rotatex(-180deg);
+}
+.flip .card {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 1.5s;
+}
+.flip .card .face {
+  border-radius:20px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+    font-family: Verdana;
+    font-size: 18px;
+    text-align: center;
+}
+
+.flip .card .frontM {
+  position: absolute;
+    background: #285fc3;
+    color: white;
+}
+
+.flip .card .frontL {
+  position: absolute;
+    background: #cc3462;
+    color: white;
+}
+
+.flip .card .backM {
+  -webkit-transform: rotatex(-180deg);
+    background: #4e83e4;
+    color: white;
+}
+
+.flip .card .backL {
+  -webkit-transform: rotatex(-180deg);
+    background: #cc3462;
+    color: white;
+}
+
+.details{
+  width: 45%;
+ margin: 50px 0px 0px 40px;
+ float:left;
+  text-align:left;
+}
+
+.details strong {
+  font-size: 28px;
+}
+
+.role{
+ padding-bottom:5px; 
+}
+
+.contact{
+ padding-top:10px;
+ padding-bottom:10px;
+}
+
+.avatar{
+ float:left;
+ margin-top: 60px;
+  width: 40%;
+}
+
+.avatar img {
+  border-radius :15px; 
+}
+
+.social {
+  margin-top:40px;
+  margin-left:5%;
+  width: 90%;
+}
+
+.socialico{
+  height:32px;
+  width:32px;
+  float:left;
+  margin-left:30px;
+  margin-right:0px;
+  margin-top:10px;
+}
+
+.sociallink{
+ float:left; 
+ margin:20px;
+}
+
+.sociallink a{
+ text-decoration:none;
+ color:white;
+}

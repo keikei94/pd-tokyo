@@ -1,0 +1,150 @@
+.pd.mainCards {
+  background: #fefeff;
+}
+
+.mainCards .contain h2 {
+    margin: 100px 0 0 ;
+    padding: 20px;
+}
+
+.cardAll{
+  padding: 100px 30px;
+}
+
+.cardAll.mens {
+  background:aliceblue;
+}
+.cardAll.ladies {
+  background: #fdf5f9;
+}
+
+.cardAll h3 {
+     font-size: 28px;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    margin: 0 50px;
+    
+}
+
+.cardAll.mens h3 {
+    border-left: 5px solid cornflowerblue;
+    border-bottom: 1px solid skyblue;
+}
+
+.cardAll.ladies h3 {
+    border-left: 5px solid #de7d9d;
+    border-bottom: 1px solid #de7d9d;
+}
+.cardIntro {
+    padding: 0 25px;
+}
+
+.cardIntro p {
+  margin: 15px 0 15px;
+}
+
+.cardIntro h4 {
+  font-size: 24px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #b2b9ce;
+}
+
+.cardWrap {
+  margin: 70px auto 80px;
+ padding: 0 70px;
+}
+
+.cardWrap .btn {
+    padding: 3px;
+    display: inline-block;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    font-size: 14px;
+    font-weight: 700;
+    width: 180px;
+}
+
+.cardWrap .btn-skin {
+  background-color: #80d3d6;
+}
+
+.cardWrap .btn-skin:hover {
+  opacity: 0.8;
+  transition: 0.4s;
+}
+
+.card {
+  display: flex;
+
+}
+
+.cardImage img {
+  width: 120px;
+  height: 150px;
+}
+
+@media (max-width: 768px) {
+  .pd.mainCards {
+    margin-bottom: 20px;
+  }
+
+  .mainCards .contain h2 {
+    display: block;
+    margin-top: 20px;
+}
+
+  .cardAll {
+    margin: 0px 0px 0px;
+    padding: 10px;
+  }
+
+  .cardAll h3 {
+    font-size: 22px;
+    margin: 30px 0 20px;
+  }
+
+  .pd.mainCards .contain p {
+    font-size: 12px;
+}
+  
+  .cardWrap {
+    margin: 0;
+    padding: 0;
+  }
+
+  .cardImage img {
+    width: 100%;
+    height: 180px;
+  }
+
+  .card {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .cardIntro {
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding: 0px 19px;
+}
+
+.cardIntro h4 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.cardIntro p {
+  margin: 10px 0 10px;
+}
+
+.cardWrap .btn {
+    margin-top: 20px;
+    padding: 3px;
+}
+}

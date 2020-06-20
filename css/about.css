@@ -1,0 +1,136 @@
+.contain h2{
+  border-left: 10px solid rgb(88, 228, 207);
+  background: #c9f9f6;
+  display: block;
+  margin-top: 100px;
+  padding: 15px;
+  font-size: 28px;
+}
+
+.pd.resultPast li {
+  list-style-type: disc;
+}
+
+.pd {
+  background: #fff;
+  margin-bottom: 200px;
+}
+
+.pd .contain {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.pd .contain p {
+  letter-spacing: 0.05em;
+  font-size: 18px;
+  line-height: 1.75em;
+}
+
+
+.pd ul > li {
+  padding: 10px;
+  list-style-type: decimal;
+  font-size: 18px;
+  line-height: 1.75em;
+}
+
+.pd ul.result > li {
+  list-style-type:none;
+}
+
+.pd ul.result > li a {
+  color: #4c4848;
+}
+
+.pd ul.result > li h3 {
+  border-bottom: 1px solid #4c4848;
+}
+
+.stamp {
+    font-size: 10px;
+    border: 3px double #f00;
+    border-radius: 50%;
+    color: #f00;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: auto;
+    left: 590px;
+}
+.stamp span { display:inline-block; width:100%; text-align:center; }
+.stamp span:first-child::before { position:absolute; top:5px; left:0; right:0; margin:auto; width:80%; border-bottom:1px solid #f00; line-height:1; padding-bottom:3px; }
+.stamp span:first-child {
+    line-height: 25px;
+    font-size: 20px;
+}
+.stamp span:last-child {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    border-top: 1px solid #f00;
+    padding-top: 2px;
+    line-height: 1;
+}
+
+/* .stamp-approve span:first-child::before {
+  content:"承認";
+} */
+.new::after{
+  margin-left: 10px;
+  content: url(../img/photo/icon4newpink.gif);
+}
+
+.menuList > dd:nth-child(2)::after {
+  display        : inline-block;       /* インラインボックス定義  */
+  content        : "NEW";              /* 表示する文字            */
+  background     : #ff0000;            /* 背景色                  */
+  color          : #ffffff;            /* 文字色                  */
+  font-weight    : bold;               /* 太字                    */
+  font-size      : 10pt;               /* ベースの文字サイズ      */
+  letter-spacing : -1px;               /* 文字間隔詰め            */
+  line-height    : 1;                  /* 1行の高さ               */
+  vertical-align : top;                /* 基準の高さ位置          */
+  margin         : 0;                  /* 外余白なし              */
+  padding        : 2px;                /* 反転時の内余白          */
+  transform      : scale(0.6)          /* 文字サイズ変更          */
+                   translateX(-30%);    /* 横位置調整              */
+                                       /* ブリンクのアニメ指定    */
+  animation      : newAnime .7s infinite alternate;
+}
+@media (max-width: 1024px) {
+  .pd .contain {
+  width: 100%;
+  padding: 0 40px;
+}
+
+.stamp {
+    left: 470px;
+}
+}
+
+@media (max-width: 767px) {
+  .pd .contain {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .pd ul.result {
+  padding: 0;
+}
+
+.pd .contain p {
+  font-size: 16px;
+}
+
+.contain h2 {
+  margin-top: 60px;
+  font-size: 20px;
+}
+}
+
+
+

@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 767px) {
+    .home_background {
+        background-position: top left 38%!important;
+    }
+}
+
+/*********************************
+contact
+*********************************/
+#formWrap {
+    width:700px;
+    margin:0 auto;
+}
+.form {
+    text-align: left;
+}
+.form span {
+    color: #9751bf;
+}
+table.formTable{
+    width:100%;
+    margin: 60px auto 30px;
+    border-collapse: collapse;
+    max-width: 800px;
+}
+table.formTable td,table.formTable th{
+    border:1px solid #ece6dd;
+    padding:15px;
+    text-align:left;
+}
+table.formTable th{
+    width:30%;
+    background:hsl(183, 94%, 86%);
+    color: #737171;
+    font-weight: bold;
+}
+input[type="submit"],
+input[type="reset"] {
+    background:hsl(183, 94%, 86%);
+    color: #3a3737;
+    border: none;
+    padding: 5px 15px;
+    font-weight: bold;
+    margin-left: 50px;
+  
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    opacity: 0.8;
+}
+input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.form>.under {
+    border-bottom: double 3px rgb(235, 14, 14);
+    color:black;
+  }
+
+  .pd .contain p.formBtn {
+    margin-top: 100px;
+    margin-right: 20px;
+  }
+
+@media screen and (max-width:767px) {
+#formWrap {
+    width:100%;
+    margin:0 auto;
+}
+table.formTable th, table.formTable td {
+    width:auto;
+    display:block;
+}
+table.formTable th {
+    margin-top:5px;
+    border-bottom:0;
+}
+input[type="text"], textarea {
+    width:100%;
+    padding:5px;
+    font-size:110%;
+    display:block;
+}
+input[type="submit"], input[type="reset"], input[type="button"] {
+    display:block;
+    width:100%;
+    height:40px;
+    margin-left:0;
+    margin-top: 20px;
+}
+
+.pd .contain p.formBtn {
+    margin-right: 0;
+  }
+
+  table.formTable {
+      margin: 20px auto 30px;
+  }
+}
+
+

@@ -1,0 +1,29 @@
+.topImage {
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+}
+
+h2.topTitle {
+    padding-top: 100px;
+    color: #fff;
+    text-align: center;
+}
+
+.pd .contain p::after {
+    content: '';
+    display: inline-block;
+    background-image: url(../img/dummy/pdf01.png);
+    width: 50px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+}
+
+@media (max-width: 767px) {
+    .pd .contain p::after {
+        vertical-align: middle;
+    }
+}
+

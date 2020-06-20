@@ -1,0 +1,304 @@
+@media (max-width: 767px) {
+  #main-wrapper {
+    width: 100%;
+    padding: 10px;
+    margin: 50px 0 100px;
+  }
+
+  table td {
+    font-size: 16px;
+  }
+
+  table td:first-child {
+    padding: 3px;
+  }
+  .wTable td{
+    padding: 3px;
+  }
+
+  .wTable .btn:last-child {
+    padding: 3px;
+  }
+}
+
+h3 {
+    margin: 60px 0 60px;
+    background: #e0f0f9;
+    border-left: 7px solid #0babe8;
+    font-size: 28px;
+    padding-left: 10px;
+}
+
+table{
+  width: 100%;
+  border-collapse:separate;
+  border-spacing: 0;
+}
+
+table th:first-child{
+  text-align: center;
+  border-radius: 5px 0 0 0;
+}
+
+table th:last-child{
+  border-radius: 0 5px 0 0;
+  border-right: 1px solid #3c6690;
+}
+
+table th{
+  text-align: center;
+  color:white;
+  background: linear-gradient(#829ebc,#a1c8ef);
+  border-left: 1px solid #3c6690;
+  border-top: 1px solid #3c6690;
+  border-bottom: 1px solid #3c6690;
+  box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
+ 
+  padding: 10px 0;
+}
+
+table td{
+  text-align: left;
+  border-left: 1px solid #a8b7c5;
+  border-bottom: 1px solid #a8b7c5;
+  border-top:none;
+  box-shadow: 0px -3px 5px 1px #eee inset;
+  font-size: 18px;
+  padding: 20px;
+}
+
+table td:first-child {
+  text-align: center;
+}
+
+table td:last-child{
+  border-right: 1px solid #a8b7c5;
+  text-align: center;
+}
+
+table tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+
+table tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
+
+.wTable .btn {
+  font-size: 18px;
+  
+}
+
+.wTable a.btn:hover {
+  color: rgb(103, 76, 165);
+}
+
+.orange {
+  background-image:-moz-linear-gradient(
+    top,
+    #ffa035 0%,
+    #ff8300);
+ 
+    background-image:-webkit-gradient(
+    linear,left top,left bottom,
+    from(#ffa035),
+    to(#ff8300));
+}
+
+.red {
+  background-image:-moz-linear-gradient(
+    top,
+    #ee7184 0%,
+    #dd3e46);
+ 
+    background-image:-webkit-gradient(
+    linear,left top,left bottom,
+    from(#f53c27),
+    to(#e4222c));
+}
+
+.green {
+  background-image:-moz-linear-gradient(
+    top,
+    #71f54d 0%,
+    #3acd5c);
+ 
+    background-image:-webkit-gradient(
+    linear,left top,left bottom,
+    from(#8ae325),
+    to(#1ea745));
+}
+
+.blue {
+  background-image:-moz-linear-gradient(
+    top,
+    #3ea8eb 0%,
+    #4141f7);
+ 
+    background-image:-webkit-gradient(
+    linear,left top,left bottom,
+    from(#2b97e9),
+    to(#2d46cf));
+}
+
+.tabs {
+  margin-top: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 1000px;
+  margin: 0 auto;}
+
+/*タブのスタイル*/
+.tab_item {
+  width: calc(100%/4);
+  height: 50px;
+  border-bottom: 3px solid #5ab4bd;
+  background-color: #d9d9d9;
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+  color: #565656;
+  display: block;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  margin:0;
+}
+.tab_item:hover {
+  opacity: 0.75;
+}
+
+/*ラジオボタンを全て消す*/
+input[name="tab_item"] {
+  display: none;
+}
+
+/*タブ切り替えの中身のスタイル*/
+.tab_content {
+  display: none;
+  /* padding: 40px 40px 0; */
+  clear: both;
+  overflow: hidden;
+}
+
+
+/*選択されているタブのコンテンツのみを表示*/
+#all:checked ~ #all_content,
+#programming:checked ~ #programming_content,
+#design:checked ~ #design_content,
+#test:checked ~ #test_content {
+  display: block;
+}
+
+/*選択されているタブのスタイルを変える*/
+.tabs input:checked + .tab_item {
+  background-color: #5ab4bd;
+  color: #fff;
+}
+
+.compe h3 {
+  margin: 50px 0 30px;
+}
+
+.compe table td {
+  font-size: 16px;
+  padding: 20px;
+}
+
+.compe table td:nth-child(3) {
+  text-align: center;
+}
+
+.btn-flat-simple {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #00BCD4;
+  background: #ECECEC;
+  transition: .4s;
+}
+
+.btn-flat-simple:hover {
+  background: #00bcd4;
+  color: white;
+}
+
+.compe table td:nth-child(2) p {
+  font-weight: bold; 
+  margin: 0;
+}
+
+.tabs .compe h3.centerH {
+    background: #fff;
+    border: 0;
+    margin: 30px 0 30px;
+    text-align: center;
+    font-size: 28px;
+    padding-left: 10px;
+}
+
+.tab_content h4 {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.tsImage {
+  margin-bottom: 100px;
+}
+
+.tsText {
+    padding: 80px 80px 30px;
+}
+
+.tabs i.fa.fa-trophy {
+    margin-right: 20px;
+    color: #d2c423;
+}
+
+.tabs i.fa.fa-tag {
+    color: darkcyan;
+    margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+  .schedule h3 {
+    margin: 30px 0 30px;
+  }
+
+  .tabs {
+    width: 100%;
+  }
+
+  .compe table td {
+    font-size: 14px;
+    padding: 3px;
+}
+
+.tabs .compe h3.centerH {
+    margin: 30px 0 30px;
+    font-size: 26px;
+}
+
+.tsText {
+    padding: 50px 10px;
+    font-size: 16px;
+}
+
+.tsImage img {
+  width: 100%;
+}
+
+.tab_content h4 {
+  font-size: 20px;
+}
+
+.tabs table th:last-child {
+    width: 25%;
+    border-radius: 0 5px 0 0;
+    border-right: 1px solid #3c6690;
+}
+}

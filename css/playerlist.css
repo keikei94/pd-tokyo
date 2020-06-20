@@ -1,0 +1,120 @@
+.pd.mainCards img {
+  margin-top: 50px;
+  width: 300px;
+  height: 350px;
+}
+
+.pd.mainCards small {
+    padding-left: 15px;
+}
+
+.staff_flex--txt {
+    width: 50%;
+}
+
+.pd.mainCards .career {
+  margin-top: 50px;
+  margin-left: 250px;
+  text-align: left;
+}
+
+.pd.mainCards button {
+    background: antiquewhite;
+    border-radius: 20px;
+    padding: 2px;
+    width: 200px;
+    border: 1px solid darkmagenta;
+}
+.pd.mainCards h4 {
+  margin: 15px 0 30px;  
+}
+
+h7 {
+    margin: 70px 10px 10px 10px;
+    /* margin-bottom: -16px; */
+    text-align: left;
+    font-size: 2em;
+    font-family: cursive;
+    display: block;
+    border-bottom: 1px solid #555;
+}
+
+.staff-profile {
+  display: flex;
+  justify-content: space-around;
+}
+
+.staff-gallery {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+h8 {
+    display:inline-block;
+    background: linear-gradient(transparent 50%, #f0ead4 20%);
+    color: #5f3838;
+    font-size: 22px;
+    /* border-left: 15px solid #43ce43; */
+
+    margin-bottom: 30px;
+    /* padding-top: 0px; */
+    /* padding-left: 20px; */
+}
+
+
+.staff-profile span {
+   background: linear-gradient(transparent 50%, #f0ead4 20%);
+    color: #5f3838;
+}
+
+@media (max-width: 767px) {
+  .pd.mainCards img {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.staff_flex--txt {
+    width: 100%;
+}
+
+.pd.mainCards .career {
+  text-align: left;
+   margin-top:0;
+   margin-left: 30px;
+   margin-bottom: 60px;
+}
+
+.staff-profile {
+    display: inline-block;
+    /* justify-content: space-between; */
+}
+
+.pd.mainCards h7 {
+      margin: 30px 10px 20px 10px;
+}
+
+.pd.mainCards h4 {
+  padding-left: 25px;
+}
+
+.staff_flex--txt p {
+  margin-left: 35px;
+}
+
+.staff-gallery {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.pd.mainCards button {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 5px;
+}
+}
+
+
+
